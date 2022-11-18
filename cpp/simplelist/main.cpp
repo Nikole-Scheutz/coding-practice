@@ -52,7 +52,7 @@ void print_menu(std::string name) {
 }
 
 void add_item() {
-	std::cout << "\n\n\n\n\n\n"
+	std::cout << "\n\n\n"
 	<< "*** Add Item ***\n"
 	<< "Type in an item and press enter: ";
 
@@ -84,7 +84,7 @@ void delete_item() {
 
 void print_list() {
 	std::cout << "\n\n\n\n\n"
-	<< "*** Printing List ***";
+	<< "*** Printing List ***\n";
 
 	for( int list_index=0; list_index < list.size(); list_index++ ) {
 		std::cout << " * " << list[list_index] << "\n";
