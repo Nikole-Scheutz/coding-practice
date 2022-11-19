@@ -1,1 +1,1 @@
-obj/main.o: /home/nikole/github/coding-practice/cpp/simplelist/main.cpp
+obj/main.o: src/main.cpp src/include/list.h
